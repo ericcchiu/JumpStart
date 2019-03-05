@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ericcchiu/Eric_Proxy_Client.git"
+    "url": "git+https://github.com/ericcchiu/JumpStart.git"
   },
   "author": "Eric",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ericcchiu/Eric_Proxy_Client/issues"
+    "url": "https://github.com/ericcchiu/JumpStart/issues"
   },
   "homepage": "https://github.com/ericcchiu/Eric_Proxy_Client#readme",
   "dependencies": {
