@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./style/ProxyClient.css";
-// import Grid from "@material-ui/core/Grid";
-// import NavBar from "./NavBar.js";
 
 class App extends Component {
   constructor(props) {
