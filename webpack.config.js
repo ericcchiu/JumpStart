@@ -1,5 +1,6 @@
 module.exports = {
-  entry: __dirname + '/client/ProxyClient.js',
+  mode: 'development',
+  entry: __dirname + '/client/src//index.js',
   module: {
     rules: [
       {
@@ -8,7 +9,8 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-react', '@babel/preset-env']
+            presets: ['@babel/preset-react', '@babel/preset-env'],
+            plugins: ['@babel/plugin-proposal-class-properties']
           }
         }
       },
